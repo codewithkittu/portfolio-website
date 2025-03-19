@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website KOMAL</title>
+    <link rel="icon" href="./img/profile.jpg">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="./img/profile.jpg" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#project">projects</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <div class="darkmode">
+                <span onclick="myfunction()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M12 10.999c1.437.438 2.562 1.564 2.999 3.001.44-1.437 1.565-2.562 3.001-3-1.436-.439-2.561-1.563-3.001-3-.437 1.436-1.562 2.561-2.999 2.999zm8.001.001c.958.293 1.707 1.042 2 2.001.291-.959 1.042-1.709 1.999-2.001-.957-.292-1.707-1.042-2-2-.293.958-1.042 1.708-1.999 2zm-1-9c-.437 1.437-1.563 2.562-2.998 3.001 1.438.44 2.561 1.564 3.001 3.002.437-1.438 1.563-2.563 2.996-3.002-1.433-.437-2.559-1.564-2.999-3.001zm-7.001 22c-6.617 0-12-5.383-12-12s5.383-12 12-12c1.894 0 3.63.497 5.37 1.179-2.948.504-9.37 3.266-9.37 10.821 0 7.454 5.917 10.208 9.37 10.821-1.5.846-3.476 1.179-5.37 1.179z" />
+                    </svg>
+                </span>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>KOMAL MAKWANA </h1>
+            <p>
+                I'm a web developer who loves to create beautiful and functional websites
+                for people who want to make a difference in the world.
+            </p>
+            <p>Currently I'm a student of The GRRAS pvt.lmt , where I'm learning how to
+                create beautiful and functional websites using HTML, CSS, JavaScript, and WordPress.
+                And How To Secure A Back-End Data On Web-Site .</p>
+            <div class="buttons">
+                <button class="hire-me"><a href="https://www.linkedin.com/in/komal-makwana-995191279/"> Hire Me
+                    </a></button>
+                <button class="lets-talk"><a href="https://www.linkedin.com/in/komal-makwana-995191279/"> Let's Talk
+                    </a></button>
+            </div>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/komal-makwana-995191279/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/komallmakwana/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.github.com/codewithkittu"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a href="./Komal makwana .pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxs-palette'></i>
+                    <h3>MERN Developer</h3>
+                </div>
+
+                <div class="profession" style="--i:2;">
+                    <i class='bx bxs-devices'></i>
+                    <h3>Back-End Developer</h3>
+                </div>
+
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxl-kubernetes'></i>
+                    <h3>Full-Stack Developer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="./img/profile.jpg" alt="home profile photo">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm KOMAL,
+                a passionate Full-Stack developer who enjoys learning new technologies
+                and solving problems with code!
+            </h3>
+            <p>
+                This website is my personal blog where I write about web development
+                topics that interest me and inspire me.
+            </p>
+            <p>
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading my blog posts and
+                found
+                them useful and informative. If you want to read more of my posts, subscribe
+                to my newsletter where I send
+                weekly
+                updates on web development trends and tips. If you have any feedback or
+                suggestions, please let me know. I'd love to hear from you.
+            </p>
+            <a href="#education" class="btn" id="hide&show">Read More</a>
+
+
+            <!-- Education section design -->
+            <section class="education" id="education">
+                <main id="education">
+                    <section class="education-section">
+                        <h2>My <span>Education</span></h2>
+                        <div class="journey-container">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-content">
+                                        <h3>Full Stack Developer Trainee - Grras Solution Pvt Ltd</h3>
+                                        <span>2023 - 2024</span>
+                                        <p>
+                                            I Had 1 Year Trainee Apprenticeship From This Institute In Full Stack
+                                            Developer In MERN. So, during this time I created and developed many
+                                            projects like CMS Management Project, Static Company Website, Dynamic
+                                            Website With Admin Panel. So that's all and I have much knowledge about
+                                            Frontend And Backend Both. Currently, I am looking for a reputed company or
+                                            organization where I can start my career and grow my skills.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-content">
+                                        <h3>Graduation-BCA</h3>
+                                        <span>2023</span>
+                                        <p>
+                                            Lockmany Colloge Of Computer Application-Ahmedabad<br>
+                                            Board: Gujrat University | Aggregate: 70.8%
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>My <span>Intenship </span></h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>Smart Agriculture Using IOT</h3>
+                                    <span>College Last Year Project</span>
+                                    <p>
+                                        In our final year project, we developed a smart agriculture system using Python
+                                        and IoT technology, incorporating four sensors and a buzzer. The system featured
+                                        smoke and fire sensors for detecting potential hazards, soil moisture sensors to
+                                        monitor and manage irrigation needs, temperature sensors to track environmental
+                                        conditions, and water sensors to ensure optimal water levels. By integrating
+                                        these sensors, our system provided real-time data and automated alerts,
+                                        facilitating efficient farm management. This innovative approach aimed to
+                                        enhance crop productivity, reduce resource wastage, and ensure a safer, more
+                                        sustainable agricultural environment. </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>MEAN Developer</h3>
+                                    <span>On The Grras Solution Practice Project</span>
+                                    <p>
+                                        Grras Pvt. Solutions provided invaluable assistance in helping us create a
+                                        comprehensive MEAN (MongoDB, Express.js, React.js, Node.js) stack developer
+                                        project. Through this practice, we gained hands-on experience in building a
+                                        full-stack web application. We learned to manage databases using MongoDB, create
+                                        server-side logic with Express.js, develop dynamic and responsive front-ends
+                                        with React.js, and establish a robust server environment using Node.js. This
+                                        project, guided by Grras Pvt. Solutions, not only enhanced our technical
+                                        proficiency but also prepared us for real-world challenges in full-stack web
+                                        development, equipping us with essential skills for a successful career.
+                                </div>
+                            </div>
+                        </div>
+                        <h2>My <span>Experience </span></h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>Digital marketing Intenship</h3>
+                                    <span>Rameshwar Devlopers</span>
+                                    <p>
+                                        I completed a three-month digital marketing training at Rameshwar Developers, a
+                                        real estate company in Kashindra, Ahmedabad. During this period, I gained
+                                        hands-on experience in digital marketing strategies, managing Instagram and
+                                        Facebook campaigns, and leading both online and offline marketing efforts. I
+                                        also worked with Google Forms to collect customer reviews and understand client
+                                        needs, helping refine marketing strategies. Additionally, I honed my skills in
+                                        data management, working extensively with Excel and Google Sheets to track and
+                                        analyze campaign performance. This training enhanced my understanding of smart
+                                        marketing techniques and the dynamic digital landscape.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3>Web Developer</h3>
+                                    <span>Hub Resolution - Asharam Road Ahmedabad</span>
+                                    <p>
+                                        I worked as a Web Designer at Hub Resolution from September 18, 2024, to January
+                                        28, 2025. During this time, I gained hands-on experience in HTML, CSS,
+                                        JavaScript, and responsive web design. As a Junior Developer, I developed strong
+                                        communication and teamwork skills, effectively collaborating with senior
+                                        developers. I also learned project management, ensuring tasks were completed
+                                        within deadlines, and improved my ability to coordinate and communicate
+                                        effectively within a professional environment. My journey at Hub Resolution was
+                                        an enriching experience that enhanced both my technical and professional skills.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+    </section>
+
+    <!-- project section design -->
+    <section class="project" id="project">
+        <h2 class="heading">My <span>Project</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="./img/amazon clon.png" alt="amazon clon">
+                <div class="project-layer">
+                    <h4>Amazon clon(HTML-CSS)</h4>
+                    <a href="./img/amazon clon.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./img/CONTACT-PAGE.png" alt="contact page">
+                <div class="project-layer">
+                    <h4>Contact Page(HTML-CSS)</h4>
+                    <a href="./img/CONTACT-PAGE.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+            <div class="project-box">
+                <img src="./img/INQUIRY-FORM.png" alt="INQUIRY-FORM">
+                <div class="project-layer">
+                    <h4>INQUIRY-FORM(HTML-CSS)</h4>
+                    <a href="./img/INQUIRY-FORM.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./img/articalpage.png" alt="abdul kalam artical">
+                <div class="project-layer">
+                    <h4>A.P.J-Abdul Kalam Artical(HTML-CSS)</h4>
+                    <a href="./img/articalpage.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./img/GRRAS CLON.png" alt="Grras clone wen site">
+                <div class="project-layer">
+                    <h4>GRRAS Cloan(HTML-CSS)</h4>
+                    <a href="./img/GRRAS CLON.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./img/otp genrater.png" alt="otp genrater">
+                <div class="project-layer">
+                    <h4>OTP Genrater(HTMI-CSS-JS)</h4>
+                    <a href="./img/otp genrater.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./img/TO-DO List.png" alt="To-do list">
+                <div class="project-layer">
+                    <h4>TO-DO list (HTMI-CSS-JS-JQURY)</h4>
+                    <a href="./img/TO-DO List.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <img src="./img/advice kipper API.png" alt="otp genrater">
+                <div class="project-layer">
+                    <h4>advice kipper API-Base (HTML-CSS-JS)</h4>
+                    <a href="./img/advice kipper API.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>"Experienced web developer proficient in HTML, CSS, and JavaScript. Skilled in creating responsive,
+                    user-friendly websites. Strong problem-solving abilities and commitment to delivering high-quality
+                    results on time."</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-devices'></i>
+                <h3>Back-End Developer</h3>
+                <p>"Seasoned back-end developer specializing in server-side technologies such as Node.js and Expres.js
+                    Proven expertise in database management, API integration, and optimizing server performance for
+                    seamless functionality."</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-kubernetes'></i>
+                <h3>Full-Stack Developer</h3>
+                <p>"Versatile full-stack developer adept at front-end and back-end technologies. Proficient in HTML,
+                    CSS, JavaScript, Node.js, and database management. Skilled in creating dynamic, responsive, and
+                    scalable web applications."</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+
+        <div class="input-box">
+            <input type="name" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-box">
+            <input type="tel" id="tel" placeholder="Mobile Number" required>
+        </div>
+
+        <div class="input-box">
+            <textarea name="" id="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        </div>
+
+        <div class="input-box">
+            <input type="submit" value="Send Message" class="btn">
+        </div>
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p> komal makwana@1507</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
